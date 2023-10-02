@@ -1,0 +1,45 @@
+.trending-hair {
+  padding: 1.6rem 0;
+  h2 {
+    font-size: 2.8rem;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    line-height: 3.3rem;
+  }
+  .trending-hair-slide {
+    width: 100%;
+    height: auto;
+    margin-top: 1.6rem;
+    .slick-list {
+      width: 100%;
+      height: auto;
+      .slick-item {
+        width: 100%;
+        height: auto;
+        padding: 0.5rem;
+        .img-slick {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+          margin-left: auto;
+          margin-right: auto;
+          vertical-align: middle;
+        }
+        .text {
+          width: 100%;
+          padding: 12px;
+          p {
+            color: #fff;
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+    .slick-dots {
+      bottom: 3px;
+    }
+  }
+}
